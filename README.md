@@ -7,7 +7,7 @@ Feel free to adjust it to better suit your style!
 ## Table of Contents
 
 - [Lab 1: Cryptography and Blockchain Concepts](#cryptographie-and-blockchain-concepts)
-- [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#exercise-2-encryptiondecryption-algorithm-inspired-by-rsa)
+- [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#Lab-2-encryptiondecryption-algorithm-inspired-by-rsa)
 
 ---
 ## Lab 1:
