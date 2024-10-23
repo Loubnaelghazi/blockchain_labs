@@ -16,14 +16,9 @@ Feel free to adjust it to better suit your style!
 This exercise proposes an encryption and decryption algorithm based on the principles of public-key cryptography, notably the famous RSA algorithm.
 
 ### Methodology:
-- **Encryption**: The message is encrypted using the public key \( N \) and \( e \), according to the following formula:
-  \[
-  C = (M^e \mod N) + \text{offset}
-  \]
-- **Decryption**: The encrypted message is decrypted using the private key \( d \), as follows:
-  \[
-  M = (C - \text{offset})^d \mod N
-  \]
+- **Encryption**: The message is encrypted using the public key \( N \) and \( e \), according to the formula \( C = M^e \mod N \), with a slight modification to add a custom offset.
+- **Decryption**: The encrypted message is decrypted using the private key \( d \), following a modified formula to retrieve the original message.
+
 
 ### Key Points:
 - Dynamic generation of public and private keys.
