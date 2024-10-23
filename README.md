@@ -26,7 +26,7 @@ This exercise proposes an encryption and decryption algorithm based on the princ
 - Implementation of secure encryption and reversible decryption.
 
 ### Usage Example:
-The file `exercise2.py` contains a complete example demonstrating this algorithm with a simple message `"Salam I am Loubna "`, which is encrypted and then decrypted.
+The file `challenge.py` contains a complete example demonstrating this algorithm with a simple message `"Salam I am Loubna "`, which is encrypted and then decrypted.
 ![Encryption exp](https://github.com/user-attachments/assets/37b5397a-9168-4c21-888f-694dced75dd6)
 
 And here is an example with the message :8493
