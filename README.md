@@ -6,12 +6,29 @@ Feel free to adjust it to better suit your style!
 
 ## Table of Contents
 
-- [Exercise 1: Introduction to Cryptography](#exercise-1-introduction-to-cryptography)
-- [Exercise 2: Encryption/Decryption Algorithm Inspired by RSA](#exercise-2-encryptiondecryption-algorithm-inspired-by-rsa)
+- [Lab 1: Cryptography and Blockchain Concepts](#cryptographie-and-blockchain-concepts)
+- [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#exercise-2-encryptiondecryption-algorithm-inspired-by-rsa)
+
+---
+## Lab 1:
+This workshop covers fundamental topics in cryptography and blockchain, including the implementation of a Merkle Tree and Proof of Work.
+
+## Exercise 1: Merkle Tree
+
+- **Objective**: Implement a basic Merkle Tree from scratch using C++.
 
 ---
 
-## Exercise 2: Encryption/Decryption Algorithm Inspired by RSA
+## Exercise 2: Proof of Work
+
+- **Objective**: Implement Proof of Work in Python.
+- **Details**:
+  - Implement blocks and chains.
+  - Vary the hashing difficulty and calculate the execution time for each difficulty level.
+  - Verify the correct functionality by providing execution examples.
+
+---
+## Lab 2: Encryption/Decryption Algorithm Inspired by RSA
 
 This exercise proposes an encryption and decryption algorithm based on the principles of public-key cryptography, notably the famous RSA algorithm.
 
