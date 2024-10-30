@@ -12,7 +12,7 @@ Feel free to adjust it to better suit your style!
 - [Lab 3: Custom Hash Function in Python](#Lab-3custom-hash-function-in-python)
 
 ---
-## Lab 1:
+## Lab 1: Cryptography and Blockchain Concepts
 This workshop covers fundamental topics in cryptography and blockchain, including the implementation of a Merkle Tree and Proof of Work.
 
 ## Exercise 1: Merkle Tree
@@ -52,7 +52,7 @@ And here is an example with the message :8493
 ![Ecryption exp 2)](https://github.com/user-attachments/assets/dec83475-00dd-4fda-aba1-8ee56dbc8907)
 
 
-
+---
 ## Lab 3: Custom Hash Function in Python
 
 
