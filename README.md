@@ -7,7 +7,6 @@ Feel free to adjust it to better suit your style!
 ## Table of Contents
 
 - [Lab 1: Cryptography and Blockchain Concepts](#Lab-1-cryptographie-and-blockchain-concepts)
-- [Lab 1: Cryptography and Blockchain Concepts](#cryptographie-and-blockchain-concepts)
 - [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#Lab-2-encryptiondecryption-algorithm-inspired-by-rsa)
 - [Lab 3: Custom Hash Function in Python](#Lab-3custom-hash-function-in-python)
 
@@ -16,13 +15,13 @@ Feel free to adjust it to better suit your style!
 This workshop covers fundamental topics in cryptography and blockchain, including the implementation of a Merkle Tree and Proof of Work.
 
 ## Exercise 1: Merkle Tree
-
+-**File** :
 - **Objective**: Implement a basic Merkle Tree from scratch using C++.
 
 ---
 
 ## Exercise 2: Proof of Work
-
+-**File**:
 - **Objective**: Implement Proof of Work in Python.
 - **Details**:
   - Implement blocks and chains.
