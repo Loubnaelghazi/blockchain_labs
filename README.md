@@ -7,7 +7,9 @@ Feel free to adjust it to better suit your style!
 ## Table of Contents
 
 - [Lab 1: Cryptography and Blockchain Concepts](#cryptographie-and-blockchain-concepts)
+- [Lab 1: Cryptography and Blockchain Concepts](#cryptographie-and-blockchain-concepts)
 - [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#Lab-2-encryptiondecryption-algorithm-inspired-by-rsa)
+- [Lab 3: Custom Hash Function in Python](#custom-hash-function-in-python)
 
 ---
 ## Lab 1:
@@ -48,6 +50,40 @@ The file `challenge.py` contains a complete example demonstrating this algorithm
 
 And here is an example with the message :8493
 ![Ecryption exp 2)](https://github.com/user-attachments/assets/dec83475-00dd-4fda-aba1-8ee56dbc8907)
+
+
+
+## Lab 3: Custom Hash Function in Python
+
+
+
+
+Concept Behind the Custom Hash Function
+
+The hachage() function in **challenge3.py**  operates on a sequence of characters in a string and uses custom bitwise operations and a dynamic accumulator to disperse the bits of each character, ultimately generating a unique hash output. The function is structured as follows:
+
+### Initialization:
+  hachage: This variable starts with a unique base value (1037), which will be transformed iteratively.
+  accumulateur: An initial accumulator value (11) helps add entropy by adjusting the effects of each character in the string.
+
+### Character Processing:
+  For each character in the input string, the function computes its ASCII value. The ASCII value is then modified by the current position in the string to add variability between strings with similar content.
+
+### Dynamic Bitwise Operations:
+  Dynamic Bit Shifting: Each character's ASCII value affects a bitwise left shift on hachage, modulated by the accumulator. This process redistributes the bits of hachage in a way that makes the hash values sensitive to even small changes in the input.
+  
+  Conditional Bit Inversion: If the ASCII value of the character is even, the bits in hachage are inverted. This introduces non-linear changes to the hash value, increasing the difference between similar inputs.
+
+###Updating the Accumulator:
+  The accumulator changes with each character using a custom formula. This alteration further ensures that each character impacts the hash differently based on its position and previous values, adding layers of uniqueness and minimizing potential collisions.
+
+###Final Hash Value:
+  After processing all characters, the function returns hachage, limited to 32 bits, providing a consistent hash size.
+
+  You can use the hachage function to generate hash values for strings. Example usage:
+
+  ![Screenshot (435)](https://github.com/user-attachments/assets/a33a539e-b3be-4103-be8e-a93efaf9837d)
+
 
 
 
