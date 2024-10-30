@@ -15,13 +15,13 @@ Feel free to adjust it to better suit your style!
 This workshop covers fundamental topics in cryptography and blockchain, including the implementation of a Merkle Tree and Proof of Work.
 
 ## Exercise 1: Merkle Tree
--**File** :
+- **File**: atelier1.cpp
 - **Objective**: Implement a basic Merkle Tree from scratch using C++.
 
 ---
 
 ## Exercise 2: Proof of Work
--**File**:
+- **File**: ex2atlier1.py
 - **Objective**: Implement Proof of Work in Python.
 - **Details**:
   - Implement blocks and chains.
