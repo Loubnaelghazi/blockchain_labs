@@ -72,6 +72,7 @@ The `PoSBlockchain` class initializes the blockchain, allows adding validators, 
 ![Screenshot (436)](https://github.com/user-attachments/assets/c73b5157-5553-44b1-aa89-5a330a0fbf30)
 
 
+---
 ### Results
 
 The code will output the time taken for each block addition. Generally, PoS is faster than PoW due to the lack of computational work in PoS
