@@ -6,9 +6,9 @@ Feel free to adjust it to better suit your style!
 
 ## Table of Contents
 
-- [Lab 1: Cryptography and Blockchain Concepts](#Lab-1-cryptographie-and-blockchain-concepts)
+- [Lab 1: Cryptography and Blockchain Concepts](#Lab-1-cryptography-and-blockchain-concepts)
 - [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#Lab-2-encryptiondecryption-algorithm-inspired-by-rsa)
-- [Lab 3: Custom Hash Function in Python](#Lab-3custom-hash-function-in-python)
+- [Lab 3: Custom Hash Function in Python](#Lab-3-custom-hash-function-in-python)
 
 ---
 ## Lab 1: Cryptography and Blockchain Concepts
