@@ -30,6 +30,71 @@ This workshop covers fundamental topics in cryptography and blockchain, includin
   - Verify the correct functionality by providing execution examples.
 
 ---
+## Exercise 3: Proof of State
+
+This exercise **ex3ATelier1.py** demonstrates and compares two popular consensus mechanisms used in blockchain technology: **Proof of Work (PoW)** and **Proof of Stake (PoS)**. 
+The code provides implementations of both mechanisms and measures the execution time required for each to add a new block to the blockchain.
+
+## Overview
+
+### Proof of Work (PoW)
+
+In PoW, miners compete to solve a computationally intensive puzzle to add a new block to the blockchain. The difficulty of this puzzle (adjustable via a parameter) determines how hard it is to find a hash that starts with a certain number of leading zeros. Higher difficulty leads to longer execution times.
+
+### Proof of Stake (PoS)
+
+In PoS, validators are chosen to add a new block based on the stake (amount of cryptocurrency) they hold. The higher the stake, the greater the chance of being selected as a validator. PoS does not involve intensive computational work, so it is typically faster than PoW. Here, we simulate the PoS process with a small time delay to represent validation tasks.
+
+I already implemented the PoW algorithme in Exercise 2, so we can compare it with PoS algorithm.
+
+The code will execute the following steps:
+   - Create a PoW blockchain and add a block, displaying the time taken.
+   - Create a PoS blockchain, add validators, and add a block using the PoS method, also displaying the time taken.
+   - Print the execution times for each mechanism.
+
+
+## Code Structure
+
+### `PoWBlock` and `PoWBlockchain`
+
+The `PoWBlock` class represents a block in the PoW blockchain. The `mine_block()` method performs the PoW hashing by incrementing the nonce until a hash with the required number of leading zeros is found.
+
+The `PoWBlockchain` class initializes the blockchain and allows adding new blocks with a specified difficulty.
+
+### `PoSBlock` and `PoSBlockchain`
+
+The `PoSBlock` class represents a block in the PoS blockchain. It requires only a hash computation without nonce iteration since no computational puzzle is involved.
+
+The `PoSBlockchain` class initializes the blockchain, allows adding validators, and selects a validator for each new block based on their stake.
+
+### Code Execution
+
+![Screenshot (436)](https://github.com/user-attachments/assets/c73b5157-5553-44b1-aa89-5a330a0fbf30)
+
+
+### Results
+
+The code will output the time taken for each block addition. Generally, PoS is faster than PoW due to the lack of computational work in PoS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 ## Lab 2: Encryption/Decryption Algorithm Inspired by RSA
 
 This exercise proposes an encryption and decryption algorithm based on the principles of public-key cryptography, notably the famous RSA algorithm.
