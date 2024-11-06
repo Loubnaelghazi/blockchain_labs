@@ -9,6 +9,7 @@ Feel free to adjust it to better suit your style!
 - [Lab 1: Cryptography and Blockchain Concepts](#Lab-1-cryptography-and-blockchain-concepts)
 - [Lab 2: Encryption/Decryption Algorithm Inspired by RSA](#Lab-2-encryptiondecryption-algorithm-inspired-by-rsa)
 - [Lab 3: Custom Hash Function in Python](#Lab-3-custom-hash-function-in-python)
+- [Lab 4: MiniSocial Contract](#Lab-4-minisocial-contract)
 
 ---
 ## Lab 1: Cryptography and Blockchain Concepts
@@ -149,7 +150,59 @@ The hachage() function in **challenge3.py**  operates on a sequence of character
 
   ![Screenshot (435)](https://github.com/user-attachments/assets/a33a539e-b3be-4103-be8e-a93efaf9837d)
 
+---
+## Lab 4 : MiniSocial Contract
 
+The **MiniSocial** contract is a basic decentralized application (dApp) on the Ethereum blockchain, allowing users to post, view, and delete messages on a decentralized platform. This contract is written in Solidity, the programming language used to write smart contracts on the Ethereum blockchain.
+
+## Key Features
+
+1. **Publish a Post**: Users can publish a message to the blockchain. Each message is associated with the address of the author (the user who posted the message).
+2. **View a Post**: Users can view a message by specifying the index of the post in the list of posts.
+3. **Delete a Post** (which I added): Users can delete their own posts by specifying the post index. The deletion is performed by replacing the deleted post with the last post in the list, and then removing the last post.
+
+## Functions
+
+### `publishPosts(string memory message)`
+- **Description**: Allows a user to publish a post with a given message.
+- **Parameters**: 
+  - `message` (string): The message content to be published.
+- **Visibility**: Public.
+
+### `getPost(uint index) public view returns (string memory, address)`
+- **Description**: Returns the message and the author's address of the post at a given index.
+- **Parameters**: 
+  - `index` (uint): The index of the post to be retrieved.
+- **Visibility**: Public.
+
+### `deletePost(uint index)`
+- **Description**: Deletes the post at the specified index, but only if the sender is the author of the post.
+- **Parameters**: 
+  - `index` (uint): The index of the post to be deleted.
+- **Visibility**: Public.
+
+### `getTotalPosts() public view returns (uint)`
+- **Description**: Returns the total number of posts.
+- **Visibility**: Public.
+
+## How it Works
+
+1. When a user calls the `publishPosts` function, the message is added to the `posts` array, along with the sender's address.
+2. The `getPost` function allows users to retrieve any post by specifying the index.
+3. The `deletePost` function allows the user to delete their own posts by replacing the deleted post with the last post in the array and removing it.
+4. The `getTotalPosts` function provides the total number of posts currently stored in the contract.
+
+
+#Deployment 
+
+An exemple showing how to post 
+![Screenshot (449)](https://github.com/user-attachments/assets/500dd0cd-30bb-4511-b7ff-a410830efbc7)
+
+An exemple of deleting post 1 
+![Screenshot (450)](https://github.com/user-attachments/assets/57ce1b54-a442-4158-aabf-18098efb8533)
+
+
+   
 
 
 
