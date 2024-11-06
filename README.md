@@ -151,7 +151,7 @@ The hachage() function in **challenge3.py**  operates on a sequence of character
   ![Screenshot (435)](https://github.com/user-attachments/assets/a33a539e-b3be-4103-be8e-a93efaf9837d)
 
 ---
-## Lab 4 : MiniSocial Contract
+## Lab 4: MiniSocial Contract
 
 The **MiniSocial** contract is a basic decentralized application (dApp) on the Ethereum blockchain, allowing users to post, view, and delete messages on a decentralized platform. This contract is written in Solidity, the programming language used to write smart contracts on the Ethereum blockchain.
 
@@ -193,13 +193,15 @@ The **MiniSocial** contract is a basic decentralized application (dApp) on the E
 4. The `getTotalPosts` function provides the total number of posts currently stored in the contract.
 
 
-#Deployment 
+## Deployment 
 
 An exemple showing how to post 
-![Screenshot (449)](https://github.com/user-attachments/assets/500dd0cd-30bb-4511-b7ff-a410830efbc7)
+![Screenshot (449)](https://github.com/user-attachments/assets/2e70575a-59ee-4f77-837a-03e8d49be855)
+
 
 An exemple of deleting post 1 
-![Screenshot (450)](https://github.com/user-attachments/assets/57ce1b54-a442-4158-aabf-18098efb8533)
+![Screenshot (450)](https://github.com/user-attachments/assets/d347c0ed-44b0-41ec-bc6a-d09c3964b429)
+
 
 
    
