@@ -153,7 +153,7 @@ The hachage() function in **challenge3.py**  operates on a sequence of character
 ---
 ## Lab 4: MiniSocial Contract
 
-The **MiniSocial** contract is a basic decentralized application (dApp) on the Ethereum blockchain, allowing users to post, view, and delete messages on a decentralized platform. This contract is written in Solidity, the programming language used to write smart contracts on the Ethereum blockchain.
+The **MiniSocial**  smart contract on the Ethereum blockchain, allows users to post, view, and delete messages . This contract is written in Solidity, the programming language used to write smart contracts on the Ethereum blockchain.
 
 ## Key Features
 
